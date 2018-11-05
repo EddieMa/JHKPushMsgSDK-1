@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JHKPushMsgSDK_Example' do
+  pod 'JHKPushMsgSDK', :path => '../'
+
+  target 'JHKPushMsgSDK_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
