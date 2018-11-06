@@ -36,7 +36,7 @@ TODO: Add long description of the pod here.
   #   'JHKPushMsgSDK' => ['JHKPushMsgSDK/Assets/*.png']
   # }
 
-  s.public_header_files = 'JHKPushMsgSDK/Classes/**/*.h'
+  s.public_header_files = 'Pods/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'AlicloudPush', '~> 1.9.8'
 end
